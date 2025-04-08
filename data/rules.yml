@@ -1,0 +1,29 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: help
+  steps:
+  - intent: ask_for_help
+  - action: utter_tell_purpuse
+
+- rule: After tell_field, propose a mentor
+  steps:
+  - intent: tell_field
+  - action: action_propose_mentor
+
+- rule: After asking for new mentor, propose a mentor
+  steps:
+  - intent: ask_for_new_mentor
+  - action: action_propose_mentor
+
+- rule: After tell_work, propose a mentor
+  steps:
+  - intent: tell_work
+  - action: action_propose_mentor
+

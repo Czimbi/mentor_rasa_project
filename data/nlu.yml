@@ -1,0 +1,122 @@
+version: "3.1"
+
+nlu:
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - Thanks for the help
+    - Thanks
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: explain_mentor
+  examples: |
+    - What are mentors
+    - What is a mentor
+
+- intent: explain_mentorship
+  examples: |
+    - What is mentorship
+    - What is mentorship in the context of this program
+    - Can you explain what mentorship is
+
+- intent: tell_field
+  examples: |
+    - I am interested in [AI](field_of_interest)
+    - I want to learn about [machine learning](field_of_interest)
+    - I am looking for a mentor in [data science](field_of_interest)
+    - I want to work in [software engineering](field_of_interest)
+    - I am interested in [cybersecurity](field_of_interest)
+    - I want to learn about [cloud computing](field_of_interest)
+    - I am looking for a mentor in [web development](field_of_interest)
+    - [web development](field_of_interest)
+    - [data science](field_of_interest)
+    - [machine learning](field_of_interest)
+    - [AI](field_of_interest)
+    - [cybersecurity](field_of_interest)
+    - [cloud computing](field_of_interest)
+    - [software engineering](field_of_interest)
+    - [naturale language processing](field_of_interest)
+    - [deep learning](field_of_interest)
+    - [computer vision](field_of_interest)
+    - [data engineering](field_of_interest)
+
+- intent: tell_work
+  examples: |
+    - I want to [build](work_of_interest) something
+    - I want to [learn](work_of_interest) something
+    - I want to [explore](work_of_interest) new ideas
+    - I want to [develop](work_of_interest) my skills
+    - I want to [research](work_of_interest) new technologies
+    - I want to [create](work_of_interest) something new
+    - I want to [improve](work_of_interest) my knowledge
+    - [build](work_of_interest)
+    - [learn](work_of_interest)
+    - [explore](work_of_interest)
+    - [develop](work_of_interest)
+    - [research](work_of_interest)
+    - [create](work_of_interest)
+    - [improve](work_of_interest)
+  
+- intent: ask_for_new_mentor
+  examples: |
+    - I want a new mentor
+    - Can you propose me a new one
+    - I want someone else
+    - Can I get someone else
+    - Please propose me someone else
+
+- intent: ask_for_help
+  examples: |
+    - Can you help me
+    - I need help

@@ -1,0 +1,91 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - explain_mentor
+  - explain_mentorship
+  - tell_field
+  - tell_work
+  - ask_for_new_mentor
+  - ask_for_help
+
+entities: 
+  - field_of_interest
+  - work_of_interest
+  - mode_of_interest
+  - new_mentor_count
+
+
+
+slots:
+  new_mentor_count:
+    type: float
+    initial_value: 1
+    mappings:
+      - type: custom
+
+  field_of_interest:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: field_of_interest
+  
+  work_of_interest:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: work_of_interest
+  
+  mode_of_interest:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: mode_of_interest
+
+actions:
+  - action_propose_mentor
+
+responses:
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_explain_mentor: 
+  - text: "A mentor is a person who has more experience in a particular field than you do and is willing to help you develop your skills in that field."
+  - text: "For me a mentor is someone who has more exprience than me in the field in interest."
+  - text: "Someone who is willing to help me develop my skills in a particular field."
+  - text: "They help you develop you skills with their experience."
+
+  utter_explain_mentorship:
+  - text: "Mentorship is a relationship in which a more experienced or more knowledgeable person helps to guide a less experienced or less knowledgeable person."
+  - text: "Mentorship is a professional or personal relationship where a more experienced individual (mentor) provides guidance, support, and knowledge to a less experienced person (mentee). The goal is to help the mentee develop skills, gain insights, and navigate challenges."
+  - text: "In academia, mentorship involves a professor, teacher, or senior student guiding a learner through academic challenges, research, and career decisions. It fosters intellectual growth, confidence, and critical thinking skills."
+
+  utter_init_conversation:
+  - text: "Hello! My name is Mebo. I am a virtual assistant to help you find the best suiting mentor for your needs. Tell me what field are you interested in?"
+
+  utter_greet_again:
+  - text: "Hello again! Can we continue our conversation?"
+  - text: "Hello again! Are you ready to find your self a mentor?"
+  - text: "Hello again! Are you ready to find a mentor?"
+
+  utter_tell_purpuse:
+  - text: "I am designed to help you find you a mentor. Can I help you with that?"
+  - text: "I can only help you find a mentor. Maybe you need another bots help!"
+
+  utter_ask_field:
+  - text: "What field are you interested in?"
+  - text: "What field are you looking for a mentor in?"
+  - text: "Tell me what field you are interested in?"
+  - text: "Can you please point out the field you are interested in?"
+
+  utter_ask_work:
+  - text: "What type of work are you looking for? Building something, learning something, or something else?"
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

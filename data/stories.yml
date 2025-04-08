@@ -1,0 +1,63 @@
+version: "3.1"
+
+stories:
+
+- story: Greet talk, propose mentor
+  steps:
+  - intent: greet
+  - action: utter_init_conversation
+  - intent: tell_field
+  - entities:
+    - field_of_interest: "AI"
+  - action: action_propose_mentor
+  - intent: affirm
+  - action: utter_goodbye
+
+- story: Greet talk, propose mentor
+  steps:
+  - intent: greet
+  - action: utter_init_conversation
+  - intent: tell_field
+  - entities:
+    - field_of_interest: "AI"
+  - action: action_propose_mentor
+  - intent: ask_for_new_mentor
+  - action: action_propose_mentor
+  - intent: ask_for_new_mentor
+  - action: action_propose_mentor
+  - intent: ask_for_new_mentor
+  - action: action_propose_mentor
+  - intent: affirm
+  - action: utter_goodbye
+
+
+
+- story: explaning mentor and mentorship
+  steps:
+  - intent: greet
+  - action: utter_init_conversation
+  - intent: explain_mentor
+  - action: utter_explain_mentor
+  - intent: explain_mentorship
+  - action: utter_explain_mentorship
+
+
+- story: greetings
+  steps:
+  - intent: greet
+  - action: utter_init_conversation
+  - intent: greet
+  - action: utter_greet_again
+  - intent: greet
+  - action: utter_greet_again
+
+- story: Can't help the user
+  steps:
+  - intent: greet
+  - action: utter_init_conversation
+  - intent: deny
+  - action: utter_tell_purpuse
+  - intent: deny
+  - action: utter_tell_purpuse
+  - intent: goodbye
+  - action: utter_goodbye

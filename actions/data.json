@@ -1,0 +1,80 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. Lena Hoffman",
+      "title": "AI Ethics Researcher",
+      "expertise": "Artificial Intelligence, Ethics, Machine Learning, Critical thinking development, research supervision, ethical reasoning guidance",
+      "content": "I help students and professionals navigate the complex intersection of AI and ethics. When mentoring, I focus on developing their ability to think critically, question assumptions, and design responsible AI systems. I use real-world case studies and encourage open, reflective discussion."
+    },
+    {
+      "id": 2,
+      "name": "Mr. Kojo Mensah",
+      "title": "Backend Architect",
+      "expertise": "System Architecture, Microservices, API Design, Code review mentoring, system design walkthroughs, architecture coaching",
+      "content": "I enjoy breaking down complex systems into manageable parts for my mentees. I mentor through collaborative whiteboarding sessions, architecture critiques, and hands-on coding reviews. My goal is to help mentees gain a deep understanding of backend principles and clean design."
+    },
+    {
+      "id": 3,
+      "name": "Prof. Isabella Conti",
+      "title": "Computational Biologist",
+      "expertise": "Bioinformatics, Data Mining, Genomics, Interdisciplinary project guidance, research publishing, scientific communication",
+      "content": "I guide students on how to apply computational methods to biological problems. My mentoring style is research-oriented I help mentees design experiments, interpret noisy data, and write publishable papers. I emphasize interdisciplinary communication and scientific integrity."
+    },
+    {
+      "id": 4,
+      "name": "Eng. Ryan Patel",
+      "title": "Cloud Infrastructure Engineer",
+      "expertise": "Cloud Platforms, DevOps, Infrastructure as Code, Hands-on deployment training, CI/CD coaching, platform debugging support",
+      "content": "I mentor by making cloud infrastructure tangible. I pair with mentees to set up real CI/CD pipelines, debug live cloud setups, and walk through automation scripts. I believe in learning by doing and always tie theory back to practical deployment challenges."
+    },
+    {
+      "id": 5,
+      "name": "Dr. Hana Al-Mutairi",
+      "title": "NLP Research Scientist",
+      "expertise": "Natural Language Processing, Linguistics, Text Mining, Research direction, thesis development, model evaluation techniques",
+      "content": "I work closely with mentees to guide them through NLP project lifecycles—from preprocessing to evaluating transformer models. I mentor by encouraging exploratory thinking, helping refine research questions, and teaching how to validate model performance rigorously."
+    },
+    {
+      "id": 6,
+      "name": "Mr. Thomas Berg",
+      "title": "Cybersecurity Consultant",
+      "expertise": "Penetration Testing, Incident Response, Risk Analysis, Scenario-based simulations, tool proficiency training, threat modeling mentorship",
+      "content": "I teach mentees how to think offensively to defend systems better. I guide them through realistic attack simulations, hands-on tool labs, and post-mortem reviews of real breaches. My mentoring focuses on developing both technical skills and a security-aware mindset."
+    },
+    {
+      "id": 7,
+      "name": "Ms. Saanvi Iyer",
+      "title": "UX Strategist",
+      "expertise": "User Experience Design, UX Research, Interface Prototyping, Portfolio feedback, design critique facilitation, user testing mentorship",
+      "content": "I mentor by helping learners build real-world UX case studies and portfolios. I guide them through research planning, usability testing, and iterative design improvements. My sessions are practical, feedback-driven, and centered on understanding the user's perspective."
+    },
+    {
+      "id": 8,
+      "name": "Dr. Omar Khaleel",
+      "title": "Database Systems Lecturer",
+      "expertise": "Databases, Query Optimization, Distributed Systems, Problem-solving coaching, schema design reviews, academic advising",
+      "content": "I mentor by building strong theoretical foundations and applying them through projects. I help mentees design efficient schemas, optimize queries, and understand distributed data challenges. I also guide academic research and encourage curiosity beyond the syllabus."
+    },
+    {
+      "id": 9,
+      "name": "Mrs. Eveline Dlamini",
+      "title": "AI Product Manager",
+      "expertise": "AI Product Strategy, Agile Teams, Tech Leadership, Career path planning, product lifecycle mentoring, cross-functional team coaching",
+      "content": "I mentor tech professionals looking to transition into product roles. I help them understand how to manage AI-driven products, align with business goals, and lead diverse teams. I offer strategic guidance and real-world examples to develop leadership confidence."
+    },
+    {
+      "id": 10,
+      "name": "Mr. Yuuto Nakamura",
+      "title": "Game Developer and Designer",
+      "expertise": "Game Engines, Interactive Systems, Graphics Programming, Creative coding guidance, portfolio development, real-time systems mentoring",
+      "content": "I help aspiring developers bring game ideas to life. I mentor by reviewing game mechanics, co-building small playable demos, and giving design feedback. I also support portfolio creation and help mentees prepare for studio interviews and indie publishing."
+    },
+    {
+        "id": 11,
+        "name": "Dr. Minta Ferenc",
+        "title": "Full-Stack Developer",
+        "expertise": "Web Development, JavaScript Frameworks, Cloud Services, Code review mentoring, full-stack project guidance, agile development coaching",
+        "content": "I mentor by guiding mentees through the full software development lifecycle. I help them build real-world applications, from frontend design to backend deployment. My approach includes pair programming, code reviews, and agile practices to foster collaboration and continuous learning."
+      }
+  ]
+  
